@@ -1,0 +1,26 @@
+.container{
+    height: 300px;
+    display: flex;
+    background-color: aqua;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.box{
+    height: 100px;
+    width: 200px;
+    margin-left: 20px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:360px) {
+    .container{
+        display: block;
+        height: 1200px;
+    }
+    .box{
+        margin-bottom: 20px;
+        width: 100px;
+        height: 200px;
+    }
+}
